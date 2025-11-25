@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Development - Natalya's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Natalya's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Professional.html">Professional</a></li>
+      <li><a href="Personality.html">Personality</a></li>
+      <li><a href="PD.html" class="active">Personal Development</a></li>
+      <li><a href="Storyboard.html">Storyboard</a></li>
+      <li><a href="References.html">Reference</a></li>
+    </ul>
+  </nav>
+
+  <div class="circle-ba"></div>
+  <div class="circle-bg"></div>
+
+  <!-- Personal Development Section -->
+  <section class="pd-section left">
+    <div class="text-content">
+      <h2>Twelve Pillars Review</h2>
+      <p>
+        <em>Twelve Pillars</em> by Jim Rohn and Chris Widener presents 12 life-changing principles for success, personal growth, and discipline. 
+        Chapters 4–7 emphasize goal setting, relationships, discipline, and self-growth as key factors for achievement.
+      </p>
+
+      <h3>The Power of Goals</h3>
+      <p>
+        Success is not accidental — it’s built on clear, written goals. Without direction, people drift aimlessly.
+        Chapter 4 suggests setting specific, measurable, and time-bound goals to track progress and build momentum.
+      </p>
+      <p>This chapter was very inspirational because I’m someone who normally does not set goals.</p>
+
+      <h3>The Influence of Relationships</h3>
+      <p>
+        “You are the average of the five people you spend the most time with.” Chapter 5 highlights the importance of surrounding yourself with positive, motivated individuals.
+        The right environment inspires growth and success, while the wrong one can easily pull you down.
+      </p>
+      <p>
+        This hit home for me because I’ve noticed that when I spend time with productive, disciplined people, I naturally become more motivated and focused.
+      </p>
+
+      <h3>Personal Development</h3>
+      <p>
+        Chapter 6 teaches that success and happiness don’t just happen — they are a result of who you become.
+        If you want better opportunities and relationships, you must grow as a person first.
+        This shifted my perspective: instead of waiting for opportunities, I should focus on becoming the kind of person who attracts them.
+      </p>
+
+      <h3>The Power of Self-Discipline</h3>
+      <p>
+        Chapter 7 teaches that discipline is the bridge between goals and success. 
+        Achievements come from small, consistent efforts — not bursts of motivation. 
+        Habits, when repeated daily, compound over time and lead to major success.
+      </p>
+
+      <h3>How Can I Apply What I’ve Read?</h3>
+      <ul>
+        <li>Set clear personal and academic goals.</li>
+        <li>Surround myself with driven and goal-oriented people.</li>
+        <li>Commit to lifelong learning and self-improvement.</li>
+        <li>Build strong discipline in daily habits.</li>
+      </ul>
+    </div>
+
+    <div class="media-content">
+      <img src="assets/TP.jpg" alt="Twelve Pillars Review">
+    </div>
+  </section>
+
+  <div class="circle-bc"></div>
+  <div class="circle-bd"></div>
+
+  <!-- Career & Skills Section (Right Aligned) -->
+  <section class="pd-section right">
+    <div class="media-content">
+      <img src="assets/project.jpg" alt="Project Management Career">
+    </div>
+
+    <div class="text-content">
+      <h2>Future Career: Project Manager</h2>
+      <p>
+        In the future, I aspire to become a <strong>Project Manager</strong>. 
+        I enjoy leading and organizing tasks, coordinating team efforts, and ensuring that each project meets its goals on time and within scope.
+        This role aligns with my interests in technology, leadership, and planning.
+      </p>
+
+      <h3>Why Project Management?</h3>
+      <p>
+        I’m passionate about teamwork and problem-solving. Project management allows me to combine both — guiding people, managing challenges, 
+        and delivering meaningful results that make a real impact.
+      </p>
+
+      <h3>Top 3 Skills I’m Developing</h3>
+      <ul>
+        <li>Leadership & Team Coordination</li>
+        <li>Time Management & Organization</li>
+        <li>Communication & Decision-Making</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="back-to-top">
+    <a href="#top">⬆ Back to Top</a>
+  </div>
+
+</body>
+
+<style>
+/* General Layout */
+.pd-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  background: rgba(173, 216, 230, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 50px auto;
+  gap: 60px;
+}
+
+.pd-section.right {
+  flex-direction: row-reverse;
+}
+
+/* Text Styling */
+.text-content {
+  width: 55%;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.text-content h2 {
+  font-size: 30px;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text-content h3 {
+  font-size: 22px;
+  color: #63b4d1;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Lists */
+.text-content ul {
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+.text-content ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+}
+
+.text-content ul li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 20px;
+}
+
+/* Image Styling */
+.media-content {
+  width: 40%;
+  text-align: center;
+}
+
+.media-content img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+</style>
+
+</html>

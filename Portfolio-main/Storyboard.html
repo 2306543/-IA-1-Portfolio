@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<ht<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storyboard - Natalya's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Natalya's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Professional.html">Professional</a></li>
+      <li><a href="Personality.html">Personality</a></li>
+      <li><a href="PD.html">Personal Development</a></li>
+      <li><a href="Storyboard.html" class="active">Storyboard</a></li>
+      <li><a href="References.html">Reference</a></li>
+    </ul>
+  </nav>
+
+  <div class="circle-ba"></div>
+  <div class="circle-bg"></div>
+
+  <!-- Wireframe Section -->
+  <section class="storyboard-section left">
+    <div class="text-content">
+      <h2>Website Wireframe</h2>
+      <p>The wireframe serves as a blueprint for my portfolio website. It outlines the structure and placement of content across different pages.</p>
+      <p>
+        You can click this link to view a more detailed version of my design:
+        <a href="https://www.canva.com/design/DAGeubdXn6Q/wXRAfjIiVkq8vnRIlvOYQw/edit?utm_content=DAGeubdXn6Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">View Wireframe</a>
+      </p>
+    </div>
+    <div class="media-content">
+      <img src="assets/wire.png" alt="Portfolio Wireframe Design">
+    </div>
+  </section>
+
+  <!-- Website Pages & Intent -->
+  <section class="storyboard-section right">
+    <div class="text-content">
+      <h2>Website Pages & Intent</h2>
+      <ul>
+        <li><strong>Home:</strong> Gives an introduction to the portfolio and myself.</li>
+        <li><strong>Professional:</strong> Displays my resume (downloadable and readable) and an overview of my intended career path.</li>
+        <li><strong>Personality:</strong> Highlights my hobbies, inspirations, and a personality review.</li>
+        <li><strong>Personal Development:</strong> Reviews <em>Twelve Pillars</em> (Ch. 4–7) and outlines lessons learned. It also includes my degree details and skills gained at UTECH.</li>
+        <li><strong>Storyboard:</strong> The current page, which shows my website’s layout and structure.</li>
+        <li><strong>References:</strong> Lists sources used throughout the portfolio.</li>
+      </ul>
+    </div>
+    <div class="media-content">
+      <img src="assets/webpage.png" alt="Website Page Layout Overview">
+    </div>
+  </section>
+
+  <!-- Website Theme -->
+  <section class="storyboard-section left">
+    <div class="text-content">
+      <h2>Website Theme</h2>
+      <p>
+        The theme of my website is modern, sleek, and professional, using shades of blue and teal to create a smooth, calm gradient. 
+        The design aims to provide a visually engaging and user-friendly experience.
+      </p>
+      <p>To add uniqueness and dimension, circular design elements were incorporated throughout the pages.</p>
+    </div>
+    <div class="media-content">
+      <img src="assets/theme.png" alt="Website Theme Preview">
+    </div>
+  </section>
+
+  <!-- Intended Features -->
+  <section class="storyboard-section right">
+    <div class="text-content">
+      <h2>Intended Website Features</h2>
+      <ul>
+        <li>Gallery — Displays project visuals.</li>
+        <li>Embedded Videos — Showcasing inspirations.</li>
+        <li>Embedded Audio — Bringing my project to life.</li>
+        <li>Downloadable Resume — For easy access to my CV.</li>
+        <li>Navigation Bar — Smooth page transitions.</li>
+        <li>Hyperlinks — Simplifies internal and external navigation.</li>
+      </ul>
+    </div>
+    <div class="media-content">
+      <img src="assets/feature.png" alt="Website Features Illustration">
+    </div>
+  </section>
+
+  <!-- Hosting Section -->
+  <section class="storyboard-section left">
+    <div class="text-content">
+      <h2>Hosting & Deployment</h2>
+      <p>
+        My portfolio website is hosted for public access at:
+        <a href="https://your-portfolio-link.com" target="_blank">View Live Portfolio</a>
+      </p>
+      <p>
+        Hosting ensures that my website is available online for instructors, peers, and potential employers to view.
+      </p>
+    </div>
+    <div class="media-content">
+      <img src="assets/hosting.png" alt="Website Hosting Illustration">
+    </div>
+  </section>
+
+  <div class="back-to-top">
+    <a href="#top">⬆ Back to Top</a>
+  </div>
+
+  <!-- Styling -->
+  <style>
+    /* Storyboard Layout */
+    .storyboard-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 8%;
+      background: rgba(240, 248, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 1200px;
+      margin: 50px auto;
+      gap: 50px;
+    }
+
+    .storyboard-section.right {
+      flex-direction: row-reverse;
+    }
+
+    /* Text */
+    .text-content {
+      width: 55%;
+      text-align: left;
+      line-height: 1.8;
+    }
+
+    .text-content h2 {
+      font-size: 26px;
+      color: #003366;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .text-content p, .text-content ul {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .text-content ul {
+      padding-left: 20px;
+    }
+
+    /* Media (Images) */
+    .media-content {
+      width: 40%;
+      text-align: center;
+    }
+
+    .media-content img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      object-fit: cover;
+    }
+
+    /* Back to top button */
+    .back-to-top {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .back-to-top a {
+      text-decoration: none;
+      background: #0077b6;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .back-to-top a:hover {
+      background: #005b8f;
+    }
+  </style>
+
+</body>
+</html>
+
